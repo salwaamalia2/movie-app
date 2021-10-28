@@ -1,0 +1,117 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POPULAR THIS WEEK</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      #header {
+        background-color: purple;
+        position: sticky;
+        top: 0;
+      }
+      #header h1 a {
+        float: left;
+        padding: 11px 0;
+        color: white;
+        text-decoration: none;
+      }
+      #header ul {
+        float: right;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .container:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      #header ul li {
+        display: inline-block;
+      }
+      #header ul li a {
+        display: inline-block;
+        padding: 20px 20px;
+        text-decoration: none;
+        color: white;
+      }
+      #header ul li a:hover {
+        background-color: white;
+        color: purple;
+      }
+      #header ul li a.active {
+        background-color: white;
+        color: purple;
+      }
+      #judul {
+        text-align: center;
+        color: purple;
+        font-size: 150%;
+        padding-top: 15vh;
+      }
+      #konten {
+        height: 93vh;
+        background-image: "girls-planet999.jpg";
+        background-position: center;
+        background-size: cover;
+      }
+      #gambar {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10vh;
+      }
+      img {
+        height: 370px;
+        width: 250px;
+        border-radius: 15px;
+      }
+      img:hover {
+        transform: translateY(-8%);
+        transition: 0.7s;
+      }
+      #footer {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: purple;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <h1>
+          <a href="tampilan.html">K-Drama & Movie App</a>
+        </h1>
+        <ul>
+          <li><a href="tampilan3.html" class="active">POPULAR THIS WEEK</a></li>
+          <li><a href="tampilan2.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="konten">
+      <div id="judul">
+        <h1>POPULAR THIS WEEK</h1>
+      </div>
+      <div id="gambar">
+        <a href="squidgame.html"><img src="squidgame.jpg" alt="" /></a>
+        <a href="parasite.html"><img src="parasite.jpg" alt="" /></a>
+        <a href="alive.html"><img src="alive.jpg" alt="" /></a>
+        <a href="snake.html"><img src="snake.jpg" alt="" /></a>
+        <a href="sweethome.html"><img src="sweethome.jpg" alt="" /></a>
+      </div>
+    </div>
+    <div id="footer">
+      <h5>copyright by SonBbo7 2021</h5>
+    </div>
+  </body>
+</html>

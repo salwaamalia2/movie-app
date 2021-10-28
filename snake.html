@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SNAKE</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      #header {
+        background-color: purple;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+      #header h1 a {
+        float: left;
+        padding: 11px 0;
+        color: white;
+        text-decoration: none;
+      }
+      #header ul {
+        float: right;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .container:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      #header ul li {
+        display: inline-block;
+      }
+      #header ul li a {
+        display: inline-block;
+        padding: 20px 20px;
+        text-decoration: none;
+        color: white;
+      }
+      #header ul li a:hover {
+        background-color: white;
+        color: red;
+      }
+      #header ul li a.active {
+        background-color: white;
+        color: red;
+      }
+      #banner {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(snake.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        flex-direction: column;
+      }
+      #banner h1 {
+        background-color: purple;
+        padding: 5px 5px;
+        font-size: 100px;
+      }
+      #banner h2 {
+        background-color: purple;
+        padding: 5px 5px;
+      }
+      #konten {
+        background-color: #1f1f35;
+      }
+      #deskripsi {
+        padding: 50px 30px;
+      }
+      #deskripsi h1 {
+        color: purple;
+      }
+      #deskripsi p {
+        margin-top: 20px;
+        color: white;
+      }
+      #trailer {
+        color: purple;
+        margin: 20px 30px;
+      }
+      iframe {
+        margin-top: 20px;
+        height: 80vh;
+        width: 94vw;
+      }
+      #filmlain {
+        margin: 80px 30px;
+        color: purple;
+      }
+      #box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      img {
+        height: 400px;
+        width: 290px;
+        border-radius: 15px;
+        margin-top: 20px;
+      }
+      img:hover {
+        transform: translateY(-5%);
+        transition: 0.7s;
+      }
+      #footer {
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: purple;
+        color: white;
+      }
+      @media (max-width: 720px) {
+        iframe {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <h1>
+          <a href="tampilan.html">K-Drama & Movie App</a>
+        </h1>
+        <ul>
+          <li><a href="tampilan3.html">POPULAR THIS WEEK</a></li>
+          <li><a href="tampilan2.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="banner">
+      <h1>SNAKE</h1>
+      <h2>2021</h2>
+    </div>
+    <div id="konten">
+      <div id="deskripsi">
+        <h1>ABOUT</h1>
+        <p>
+        Pain itself is pleasant, a major iterative process, but I give it like this
+        time as low as fatigue and obesity. To have at least
+        I'm coming, what would our school district do if it weren't for the cause?
+        please follow me. Pain in pain curses in pleasure
+        he wants to be a cillus with pain, but no one can escape pain. except sint
+        blinding longing not to see, those guilty of abandoning their duty
+        calm the soul, that's hard work.
+      </p>
+      <p>
+        고통 그 자체가 유쾌하고 큰 반복적인 과정이지만 나는 이렇게 준다.
+        피로와 비만만큼 낮은 시간. 적어도
+        내가 가는데, 우리 학군은 그 이유가 없었다면 어떻게 했을까요?
+        저를 따르십시오. 고통 속의 고통 쾌락의 저주
+        그는 고통이 있는 실루스를 원하지만 고통을 피할 수 있는 사람은 아무도 없다. 죄를 제외하고
+        보지 않으려는 맹목적인 갈망, 의무를 저버린 죄인
+        영혼을 진정시키세요. 힘든 일입니다.
+      </p>
+      </div>
+      <div id="trailer">
+        <h1>Trailer</h1>
+        <div id="vidio">
+          <iframe
+            src="https://www.youtube.com/embed/7fjjp-Vn940"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div id="filmlain">
+        <h1>K-DRAMA</h1>
+        <div id="box">
+          <a href="parasite.html"><img src="parasite.jpg" alt="" /></a>
+          <a href="alive.html"><img src="alive.jpg" alt="" /></a>
+          <a href="squidgame.html"><img src="squidgame.jpg" alt="" /></a>
+          <a href="sweethome.html"><img src="sweethome.jpg" alt="" /></a>
+        </div>
+      </div>
+      <div id="footer">
+        <h5>copyright by nusantech 2021</h5>
+      </div>
+    </div>
+  </body>
+</html>
